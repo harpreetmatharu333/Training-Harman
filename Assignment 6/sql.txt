@@ -1,6 +1,3 @@
-create database harman5;
-use harman5;
-
-create table emp3(id int not null primary key auto_increment, name varchar(80) not null, salary double not null, age int not null);
-insert into emp3(name, salary, age) values('sumit',90000,32);
-insert into emp3(name, salary, age) values('anil',100000,36);
+create table books(id int not null primary key auto_increment, title varchar(100) not null, price double not null);
+insert into books(title, price) values ('you can win',656);
+insert into books(title, price) values ('power of subconsious mind',156);
